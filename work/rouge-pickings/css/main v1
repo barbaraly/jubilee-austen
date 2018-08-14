@@ -1,0 +1,114 @@
+/*****BASE STYLES*****/
+body {
+  font-family: 'montserrat', sans-serif;
+  color: black;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/*****GRID*****/
+
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+.half-width {
+  width: 50%;
+  float: left;
+}
+.third-width{
+  align-content: center;
+  border: 1px solid lightgray;
+  height: 200px;
+  width: 30%;
+  float: left;
+  padding: 30px 30px 30px 30px;
+}
+
+/*****HEADER*****/
+
+header h1{
+  font-size: 30px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+span.title{
+  color: black;
+}
+header{
+  background: url(../img/'hero-image.png');
+  height: auto;
+}
+img{
+  border: solid #77a466;
+  border-width: 3px 0px 3px 0px;
+}
+nav{
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #77a466;
+  display: inline;
+  padding: 10px;
+  text-align: right;
+  line-height: 50px;
+}
+
+/*****MAIN*****/
+
+#about{
+  line-height: 25px;
+}
+#about h2{
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 16pt;
+}
+#about p{
+  line-height: 30px;
+}
+#menu .third-width{
+  border-left: 0px;
+}
+
+#menu h3, #reviews h3, #locations h3{
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#menu ul{
+  color:#77a466;
+  font-size: 16px;
+  text-transform: capitalize;
+  list-style-type: none;
+  line-height: 40px;
+  padding-left: 0px;
+}
+#reviews p{
+ line-height: 25px;
+}
+#locations .third-width{
+ border-right: 0px;
+ float:left;
+ width: 30%;
+}
+#locations p{
+ line-height: 30px;
+}
+/*****FOOTER*****/
+footer h4{
+  font-size: 16pt;
+  text-align: center;
+  line-height: 65px;
+  clear:both;
+}
+span.footer{
+  font-family: 'Dancing Script', cursive;
+  color: #77a466;
+}
